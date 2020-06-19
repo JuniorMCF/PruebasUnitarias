@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195FA6B4249C32340086A209 /* BinUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FA6B3249C32340086A209 /* BinUtil.swift */; };
+		195FA6B6249C325D0086A209 /* BinUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195FA6B5249C325D0086A209 /* BinUtilTests.swift */; };
 		196B1BD02489CA4A00B2468B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BCF2489CA4A00B2468B /* AppDelegate.swift */; };
 		196B1BD22489CA4A00B2468B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BD12489CA4A00B2468B /* SceneDelegate.swift */; };
-		196B1BD42489CA4A00B2468B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BD32489CA4A00B2468B /* ContentView.swift */; };
 		196B1BD62489CA4B00B2468B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196B1BD52489CA4B00B2468B /* Assets.xcassets */; };
 		196B1BD92489CA4B00B2468B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196B1BD82489CA4B00B2468B /* Preview Assets.xcassets */; };
 		196B1BDC2489CA4B00B2468B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196B1BDA2489CA4B00B2468B /* LaunchScreen.storyboard */; };
-		196B1BE72489CA4C00B2468B /* PruebasUnitariasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BE62489CA4C00B2468B /* PruebasUnitariasTests.swift */; };
 		196B1BF22489CA4C00B2468B /* PruebasUnitariasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BF12489CA4C00B2468B /* PruebasUnitariasUITests.swift */; };
+		196B1C002489CCD400B2468B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196B1BFF2489CCD400B2468B /* MainViewController.swift */; };
+		196B1C052489CD6500B2468B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196B1C042489CD6500B2468B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195FA6B3249C32340086A209 /* BinUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinUtil.swift; sourceTree = "<group>"; };
+		195FA6B5249C325D0086A209 /* BinUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinUtilTests.swift; sourceTree = "<group>"; };
 		196B1BCC2489CA4A00B2468B /* PruebasUnitarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebasUnitarias.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		196B1BCF2489CA4A00B2468B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		196B1BD12489CA4A00B2468B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		196B1BD32489CA4A00B2468B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		196B1BD52489CA4B00B2468B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196B1BD82489CA4B00B2468B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		196B1BDB2489CA4B00B2468B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,8 @@
 		196B1BED2489CA4C00B2468B /* PruebasUnitariasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebasUnitariasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		196B1BF12489CA4C00B2468B /* PruebasUnitariasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebasUnitariasUITests.swift; sourceTree = "<group>"; };
 		196B1BF32489CA4C00B2468B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196B1BFF2489CCD400B2468B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		196B1C042489CD6500B2468B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		195EF8F2248E902E00D1751D /* ModelsTest */ = {
+			isa = PBXGroup;
+			children = (
+				195FA6B5249C325D0086A209 /* BinUtilTests.swift */,
+			);
+			path = ModelsTest;
+			sourceTree = "<group>";
+		};
 		196B1BC32489CA4A00B2468B = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +112,11 @@
 		196B1BCE2489CA4A00B2468B /* PruebasUnitarias */ = {
 			isa = PBXGroup;
 			children = (
+				196B1C032489CD4E00B2468B /* Models */,
+				196B1C022489CD4400B2468B /* Controllers */,
+				196B1C012489CD3800B2468B /* Storyboards */,
 				196B1BCF2489CA4A00B2468B /* AppDelegate.swift */,
 				196B1BD12489CA4A00B2468B /* SceneDelegate.swift */,
-				196B1BD32489CA4A00B2468B /* ContentView.swift */,
 				196B1BD52489CA4B00B2468B /* Assets.xcassets */,
 				196B1BDA2489CA4B00B2468B /* LaunchScreen.storyboard */,
 				196B1BDD2489CA4B00B2468B /* Info.plist */,
@@ -121,6 +136,7 @@
 		196B1BE52489CA4C00B2468B /* PruebasUnitariasTests */ = {
 			isa = PBXGroup;
 			children = (
+				195EF8F2248E902E00D1751D /* ModelsTest */,
 				196B1BE62489CA4C00B2468B /* PruebasUnitariasTests.swift */,
 				196B1BE82489CA4C00B2468B /* Info.plist */,
 			);
@@ -134,6 +150,30 @@
 				196B1BF32489CA4C00B2468B /* Info.plist */,
 			);
 			path = PruebasUnitariasUITests;
+			sourceTree = "<group>";
+		};
+		196B1C012489CD3800B2468B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				196B1C042489CD6500B2468B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		196B1C022489CD4400B2468B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				196B1BFF2489CCD400B2468B /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		196B1C032489CD4E00B2468B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				195FA6B3249C32340086A209 /* BinUtil.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +283,7 @@
 				196B1BDC2489CA4B00B2468B /* LaunchScreen.storyboard in Resources */,
 				196B1BD92489CA4B00B2468B /* Preview Assets.xcassets in Resources */,
 				196B1BD62489CA4B00B2468B /* Assets.xcassets in Resources */,
+				196B1C052489CD6500B2468B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196B1C002489CCD400B2468B /* MainViewController.swift in Sources */,
 				196B1BD02489CA4A00B2468B /* AppDelegate.swift in Sources */,
 				196B1BD22489CA4A00B2468B /* SceneDelegate.swift in Sources */,
-				196B1BD42489CA4A00B2468B /* ContentView.swift in Sources */,
+				195FA6B4249C32340086A209 /* BinUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196B1BE72489CA4C00B2468B /* PruebasUnitariasTests.swift in Sources */,
+				195FA6B6249C325D0086A209 /* BinUtilTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pruebas.PruebasUnitarias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.pruebas.PruebasUnitarias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
